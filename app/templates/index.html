@@ -32,7 +32,6 @@ src="{{ post.author.gravatar(size=40) }}">
     </div>
     <div class="col-xs-4">
       <div class="well" style="margin-top:10%; margin-bottom:10%">
-        <h1 class="text-center">HEY THERE!</h1>
         <h2 class="text-center">Welcome to Blogger</h2>
         <a href="{{url_for('auth.login')}}">
         <button type="click" name="button" class="btn btn-default btn-block" id="sign-in">SIGN IN</button>
@@ -48,14 +47,10 @@ src="{{ post.author.gravatar(size=40) }}">
   {% endif %} {% block styles%} {{ super() }}
   <link href="https://fonts.googleapis.com/css?family=Acme|Berkshire+Swash|Bree+Serif|Courgette|Lobster|Sedgwick+Ave+Display|Yanone+Kaffeesatz" rel="stylesheet">
   <style>
-    /*font-family: 'Courgette', cursive;
-font-family: 'Sedgwick Ave Display', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Yanone Kaffeesatz', sans-serif;
-font-family: 'Bree Serif', serif;
-font-family: 'Acme', sans-serif;
-font-family: 'Berkshire Swash', cursive;*/
 
+  body{
+    background-color: #2471A3;
+  }
     * {
       box-sizing: border-box;
     }
@@ -78,8 +73,5 @@ font-family: 'Berkshire Swash', cursive;*/
       font-size: 20px;
     }
 
-    .wrap {
-      background-color: #2471A3;
-    }
   </style>
   {% endblock %} {% endblock %}
