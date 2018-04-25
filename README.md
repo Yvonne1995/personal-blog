@@ -1,5 +1,5 @@
-# News Source
-This is an application that allows a user to list and preview news articles from various sources.
+# Personal Blog
+This is an application that allows a user to record blogs 
 
 ## Author
 Yvonne Kagondu
